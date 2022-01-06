@@ -13,9 +13,10 @@
 		C3C3790527854F0F00942AA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C3790427854F0F00942AA5 /* Preview Assets.xcassets */; };
 		C3C3790C27854F5100942AA5 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3790B27854F5100942AA5 /* DataController.swift */; };
 		C3C3790F27854FA600942AA5 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3C3790D27854FA600942AA5 /* CoreDataProject.xcdatamodeld */; };
-		C3C37916278608B500942AA5 /* Singer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C37914278608B500942AA5 /* Singer+CoreDataClass.swift */; };
-		C3C37917278608B500942AA5 /* Singer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C37915278608B500942AA5 /* Singer+CoreDataProperties.swift */; };
-		C3C37919278609F700942AA5 /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C37918278609F700942AA5 /* FilteredList.swift */; };
+		C3C3791E2786458B00942AA5 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3791A2786458B00942AA5 /* Country+CoreDataClass.swift */; };
+		C3C3791F2786458B00942AA5 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3791B2786458B00942AA5 /* Country+CoreDataProperties.swift */; };
+		C3C379202786458B00942AA5 /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3791C2786458B00942AA5 /* Candy+CoreDataClass.swift */; };
+		C3C379212786458B00942AA5 /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C3791D2786458B00942AA5 /* Candy+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +27,10 @@
 		C3C3790427854F0F00942AA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C3C3790B27854F5100942AA5 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		C3C3790E27854FA600942AA5 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
-		C3C37914278608B500942AA5 /* Singer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		C3C37915278608B500942AA5 /* Singer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Singer+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		C3C37918278609F700942AA5 /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		C3C3791A2786458B00942AA5 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		C3C3791B2786458B00942AA5 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		C3C3791C2786458B00942AA5 /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		C3C3791D2786458B00942AA5 /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 		C3C378FC27854F0F00942AA5 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
-				C3C37914278608B500942AA5 /* Singer+CoreDataClass.swift */,
-				C3C37915278608B500942AA5 /* Singer+CoreDataProperties.swift */,
+				C3C3791A2786458B00942AA5 /* Country+CoreDataClass.swift */,
+				C3C3791B2786458B00942AA5 /* Country+CoreDataProperties.swift */,
+				C3C3791C2786458B00942AA5 /* Candy+CoreDataClass.swift */,
+				C3C3791D2786458B00942AA5 /* Candy+CoreDataProperties.swift */,
 				C3C378FD27854F0F00942AA5 /* CoreDataProjectApp.swift */,
 				C3C378FF27854F0F00942AA5 /* ContentView.swift */,
-				C3C37918278609F700942AA5 /* FilteredList.swift */,
 				C3C3790B27854F5100942AA5 /* DataController.swift */,
 				C3C3790D27854FA600942AA5 /* CoreDataProject.xcdatamodeld */,
 				C3C3790127854F0F00942AA5 /* Assets.xcassets */,
@@ -153,12 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3C3790027854F0F00942AA5 /* ContentView.swift in Sources */,
-				C3C37917278608B500942AA5 /* Singer+CoreDataProperties.swift in Sources */,
 				C3C3790C27854F5100942AA5 /* DataController.swift in Sources */,
-				C3C37916278608B500942AA5 /* Singer+CoreDataClass.swift in Sources */,
+				C3C3791F2786458B00942AA5 /* Country+CoreDataProperties.swift in Sources */,
+				C3C379212786458B00942AA5 /* Candy+CoreDataProperties.swift in Sources */,
 				C3C3790F27854FA600942AA5 /* CoreDataProject.xcdatamodeld in Sources */,
+				C3C3791E2786458B00942AA5 /* Country+CoreDataClass.swift in Sources */,
 				C3C378FE27854F0F00942AA5 /* CoreDataProjectApp.swift in Sources */,
-				C3C37919278609F700942AA5 /* FilteredList.swift in Sources */,
+				C3C379202786458B00942AA5 /* Candy+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +301,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,7 +331,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
